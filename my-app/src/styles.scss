@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/fullpage/css/jquery.fullPage.css";
+
+/*
+* ! ----右边导航----
+*/
+#fp-nav ul li {
+  width: 20px;
+  height: 20px;
+}
+
+#fp-nav ul li a {
+  width: 16px;
+    height: 16px;
+    border: 2px dotted #fff;
+    border-radius: 50%;
+    margin: 0 auto 8px;
+}
+
+#fp-nav ul li span {
+  display: none;
+}
+@keyframes navAnimate {
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+#fp-nav ul li a.active{
+  width: 20px;
+  height: 20px;
+  margin-top: -4px;
+  animation: navAnimate 1s linear infinite;
+}
