@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index7.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="left">
+                <i>
+                    <img src="../img/service.png" alt="">
+                </i>
+                <p>在线客服</p>
+            </div>
+            <div class="right">
+                <i><img src="../img/msg.png" alt=""></i>
+                <p>我的信息</p>
+            </div>
+            <div class="center">
+                <i><img src="../img/header.jpg" alt=""></i>
+                <p>测试<br/>(ID:2009776)</p>
+            </div>
+        </header>
+        <ul class="msg">
+            <li class="item">
+                <b class="red">68774元</b>
+                <p>可用余额</p>
+            </li>
+            <li class="item">
+                <b>0.00元</b>
+                <p>冻结金额</p>
+            </li>
+            <li class="item">
+                <b>3022积分</b>
+                <p>可用积分</p>
+            </li>
+        </ul>
+        <ul class="btn-box">
+            <li>
+                <i class="float-left"><img src="../img/money1.png" alt=""></i>
+                <span class="float-left">储值</span>
+                <div class="border"></div>
+            </li>
+            <li>
+                <i class="float-left right"><img src="../img/money2.png" alt=""></i>
+                <span class="float-left">提现</span>
+            </li>
+        </ul>
+        <ul class="list">
+            <li class="clear-both">
+                <i class="float-left"><img src="../img/icon-1.jpg" alt=""></i>
+                <p class="float-left">
+                    <span class="span1">我的订单</span>
+                    <span class="span2">查看订单记录</span>
+                </p>
+            </li>
+            <li class="clear-both">
+                <i class="float-left right"><img src="../img/icon-2.jpg" alt=""></i>
+                <a href="index8.html" class="float-left p">
+                    <span class="span1">兑换记录</span>
+                    <span class="span2">查看兑换记录</span>
+                </a>
+            </li>
+            <li class="clear-both">
+                <i class="float-left"><img src="../img/icon-3.jpg" alt=""></i>
+                <p class="float-left">
+                    <span class="span1">密码管理</span>
+                    <span class="span2">安全保障中心</span>
+                </p>
+            </li>
+            <li class="clear-both">
+                <i class="float-left right"><img src="../img/icon-4.jpg" alt=""></i>
+                <p class="float-left">
+                    <span class="span1">身份认证</span>
+                    <span class="span2">个人身份认证</span>
+                </p>
+            </li>
+            <li class="clear-both">
+                <i class="float-left"><img src="../img/icon-5.jpg" alt=""></i>
+                <p class="float-left">
+                    <span class="span1">我的福利</span>
+                    <span class="span2">各种福利领取</span>
+                </p>
+            </li>
+            <li class="clear-both">
+                <i class="float-left right"><img src="../img/icon-6.jpg" alt=""></i>
+                <p class="float-left">
+                    <span class="span1">站内信</span>
+                    <span class="span2">站内信</span>
+                </p>
+            </li>
+        </ul>
+        <div class="button-wrapper">
+            <button>退出登录</button>
+        </div>
+    </div>
+    <footer>
+        <div class="float-left item btn1">
+            <i></i>
+            <p>首页</p>
+        </div>
+        <div class="float-left item btn2">
+            <i></i>
+            <p>积分商城</p>
+        </div>
+        <div class="float-left item btn3">
+            <i><div class="num">0</div></i>
+            <p>购物车</p>
+        </div>
+        <div class="float-left item btn4 hot">
+            <i></i>
+            <p>个人中心</p>
+        </div>
+    </footer>
+</body>
+</html>

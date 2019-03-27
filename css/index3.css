@@ -1,0 +1,177 @@
+@import "bass.css";
+
+html, body {
+    max-width: 640px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    height: 0.68rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: normal;
+    line-height: 0.68rem;
+}
+
+.title i {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.16rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../img/back.png") no-repeat 0 0;
+    background-size: auto 100%;
+}
+.box{
+    background: #fff;
+    margin-top : 0.28rem;
+}
+.box i{
+    width: 1.54rem;
+    height: 1.54rem;
+    margin-left: 0.35rem;
+}
+.box i img{
+    height: 100%;
+}
+.box .text{
+    width: calc(100vw - 1.89rem);
+    padding-right: 0.7rem;
+    font-size: 0.24rem;
+    padding-left: 0.2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+}
+.box .text p{
+    word-break:break-all;
+    line-height: 120%;
+    font-weight: bold;
+}
+.box .text .price{
+    margin-top: 0.2rem;
+    /*margin-bottom: 0.05rem;*/
+    font-size: 0.24rem;
+}
+.box .text .price b{
+    font-size: 0.24rem;
+}
+.box .text .count {
+    font-size: 0.24rem;
+}
+.money{
+    height: 0.7rem;
+    line-height: 0.7rem;
+    background: #efefef;
+    padding-right: 0.26rem;
+    margin-top: 0.35rem;
+}
+.money span{
+    height: 0.7rem;
+    color: #333;
+    font-size: 0.24rem;
+}
+.name{
+    background: #fff;
+    margin-top: 0.16rem;
+    padding-bottom: 1rem;
+}
+.name h6{
+    position: relative;
+    line-height: 0.56rem;
+    height: 0.56rem;
+    color: #030303;
+    font-size: 0.24rem;
+    padding-left: 0.28rem;
+}
+.name h6 i{
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+    width: 0.1rem;
+    height: 0.2rem;
+    background: #e6433e;
+}
+.name p{
+    font-size: 0.24rem;
+    padding: 0.35rem 0.2rem 0;
+    color: #000;
+    line-height: 0.55rem;
+}
+.name p:last-of-type{
+    height: 2.38rem;
+    overflow: hidden;
+}
+.name input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    font-size:0.2rem;
+    color: #000;
+    -webkit-border-radius: 0.06rem;
+    -moz-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    padding: 0.2rem;
+    line-height: 0.55rem;
+    height: 0.55rem;
+    border: 1px solid #efefef;
+    width: 4.8rem;
+}
+#text{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    font-size:0.2rem;
+    color: #000;
+    -webkit-border-radius: 0.06rem;
+    -moz-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    padding: 0.2rem;
+    line-height: 0.3rem;
+    height: 2.38rem;
+    border: 1px solid #efefef;
+    width: 4.8rem;
+}
+.button{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 5.72rem;
+    height: 0.68rem;
+    color: #f0ffee;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    -webkit-border-radius: 0.06rem;
+    -moz-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    outline: 0;
+    background: #e6433e;
+    border: 0;
+    margin: 0.7rem auto 0;
+    display: block;
+    text-align: center;
+}
+.tips{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.98rem;
+    height: 0.68rem;
+    font-size: 0.24rem;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.68rem;
+}

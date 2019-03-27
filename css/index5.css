@@ -1,0 +1,302 @@
+@import "bass.css";
+
+html, body {
+    max-width: 640px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    height: 0.68rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: normal;
+    line-height: 0.68rem;
+}
+
+.title i {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.16rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../img/back.png") no-repeat 0 0;
+    background-size: auto 100%;
+}
+.small-title {
+    position: relative;
+    line-height: 100%;
+    height: 0.24rem;
+    color: #e6433e;
+    font-size: 0.24rem;
+    padding-left: 0.28rem;
+    margin-top: 0.14rem;
+}
+
+.small-title i {
+    position: absolute;
+    left: 0;
+    top: 0.03rem;
+    width: 0.1rem;
+    height: 0.2rem;
+    background: #e6433e;
+}
+.small-title span {
+
+}
+
+.cards{
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+.cards .bg-check{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+}
+.bg-check .left{
+    width: 3.67rem;
+    height: 2.04rem;
+    padding-left: 0.4rem;
+    margin-top: 0.3rem;
+}
+.bg-check .left img{
+    width: 100%;
+    height: 100%;
+}
+.bg-check .right{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #e6433e;
+    margin-left: 0.6rem;
+    margin-top: 2rem;
+}
+.bg-check .inner-content{
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 6.42rem;
+    height: 5.14rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+}
+.bg-check .name{
+    word-break:break-all;
+    font-size: 0.24rem;
+    color: #000;
+    padding-left: 0.28rem;
+    width: 5.6rem;
+    margin-top: 0.4rem;
+    height: 0.64rem;
+    overflow: hidden;
+}
+.bg-check .count{
+    color: #000;
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+    padding-left: 0.28rem;
+    margin-top: 0.1rem;
+}
+.bg-check .submit-btn{
+    width: 5.2rem;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+    margin: 0.28rem auto 0;
+    display: block;
+}
+.bg-check .count .num-box{
+    margin-left: 0.36rem;
+}
+.bg-check .count .num-box .left-btn{
+    width: 0.44rem;
+    height: 0.46rem;
+    border: 1px solid #ebebeb;
+    border-bottom-left-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.46rem;
+}
+.bg-check .count .num-box .center{
+    width: 0.68rem;
+    height: 0.46rem;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    line-height: 0.46rem;
+}
+.bg-check .count .num-box .right-btn{
+    width: 0.44rem;
+    height: 0.46rem;
+    border: 1px solid #ebebeb;
+    border-bottom-right-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.46rem;
+    color: #2fbb13;
+}
+.close{
+    position: absolute;
+    right: 0.16rem;
+    top: 0.25rem;
+    width: 0.37rem;
+    height: 0.35rem;
+}
+.close img{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    height: 2.38rem;
+    border-bottom: 1px solid #d0d0d0;
+}
+.card .left{
+    width: 3.67rem;
+    height: 2.04rem;
+    padding-left: 0.2rem;
+    margin-top: 0.18rem;
+}
+.card .left img{
+    width: 100%;
+    height: 100%;
+}
+.card .right{
+    margin-left: 0.3rem;
+    margin-top: 0.18rem;
+}
+.card .right p{
+    color: #000;
+    font-size: 0.2rem;
+    margin-top: 0.4rem;
+}
+.card .right p span{
+    color: #e6433e;
+    font-size: 0.24rem;
+}
+.card .right button{
+    background: #e6433e;
+    color: #fff;
+    font-size: 0.24rem;
+    border: 0;
+    width: 1.52rem;
+    height: 0.54rem;
+    display: block;
+    margin-top: 0.46rem;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    font-size: 0.2rem;
+}
+
+footer .item {
+    width: 25%;
+    position: relative;
+}
+
+footer .item {
+    width: 25%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+footer .item i {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin: 0.06rem auto 0.04rem;
+    position: relative;
+    font-style: normal;
+}
+
+footer .num {
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    color: #fff;
+    background: #ff452e;
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+footer .btn1.hot {
+    color: #e33324;
+}
+
+footer .btn1 i {
+    background: url("../img/home1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn1.hot i {
+    background: url("../img/home2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot {
+    color: #e33324;
+}
+
+footer .btn2 i {
+    background: url("../img/shop1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot i {
+    background: url("../img/shop2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot {
+    color: #e33324;
+}
+
+footer .btn3 i {
+    background: url("../img/shop-cart1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot i {
+    background: url("../img/shop-cart2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot {
+    color: #e33324;
+}
+
+footer .btn4 i {
+    background: url("../img/set1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot i {
+    background: url("../img/set2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

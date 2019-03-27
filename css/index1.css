@@ -1,0 +1,246 @@
+@import "bass.css";
+html, body {
+    max-width: 640px;
+    margin: auto;
+}
+.banner{
+    height: 2.9rem;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+h6{
+    height: 0.64rem;
+    background: #efefef;
+    line-height: 0.64rem;
+    padding: 0 0.2rem;
+    font-size: 0.24rem;
+    color: #010101;
+    font-weight: normal;
+}
+h6 i{
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-top: 0.16rem;
+}
+h6 img{
+    width: 100%;
+    height: 100%;
+}
+.box-bg{
+    background: #efefef;
+}
+.flex-box{
+    display: flex;
+    height: 1.44rem;
+    justify-content: space-around;
+    background: #fff;
+    margin-bottom: 8px;
+}
+.flex-box li{
+    width: 0.98rem;
+    height: 1.08rem;
+    padding: 0.16rem 0;
+}
+.flex-box li i{
+    display: block;
+    width: 0.68rem;
+    height: 0.7rem;
+    margin: 0 auto;
+}
+.flex-box li i img{
+    width: 100%;
+    height: 100%;
+}
+.flex-box li p{
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 0.24rem;
+    line-height: 100%;
+    margin-top: 0.14rem;
+}
+.box-bg .title{
+    position: relative;
+    height: 0.74rem;
+    color: #090909;
+    font-weight: bold;
+    font-size: 0.24rem;
+    line-height: 0.74rem;
+    background: #fff;
+    padding-left: 0.28rem;
+}
+.box-bg .title .left-icon{
+    width: 0.1rem;
+    height: 0.2rem;
+    background: #e6433e;
+    position: absolute;
+    left: 0;
+    top: 0.28rem;
+}
+.box-bg .title .right-icon{
+    color: #a7a7a7;
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    font-size: 0.24rem;
+    font-style: normal;
+}
+.flex-box2-wrapper{
+    width: 100%;
+    background: #fff;
+}
+.flex-box2{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.14rem 0.42rem 0;
+    flex-wrap: wrap;
+    width: 6.4rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto 0.8rem;
+}
+.flex-box2 li{
+    width: 1.7rem;
+    height: 3.1rem;
+    margin-bottom: 0.3rem;
+}
+.flex-box2 li i{
+    display: block;
+    width: 1.7rem;
+    height: 1.62rem;
+}
+.flex-box2 li i img{
+    width: 100%;
+    height: 100%;
+}
+.flex-box2 li p{
+    height: 0.68rem;
+    overflow: hidden;
+    word-break:break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.24rem;
+    color: #030303;
+}
+.flex-box2 li b{
+    display: block;
+    color: #e53c4c;
+    font-size: 0.28rem;
+    line-height: 100%;
+    margin-top: 0.16rem;
+}
+.flex-box2 li span{
+    display: block;
+    color: #0b0b0b;
+    font-size: 0.24rem;
+    line-height: 100%;
+    margin-top: 0.14rem;
+}
+footer {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    font-size: 0.2rem;
+}
+
+footer .item {
+    width: 25%;
+    position: relative;
+}
+
+footer .item {
+    width: 25%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+footer .item i {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin: 0.06rem auto 0.04rem;
+    position: relative;
+    font-style: normal;
+}
+
+footer .num {
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    color: #fff;
+    background: #ff452e;
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+footer .btn1.hot {
+    color: #e33324;
+}
+
+footer .btn1 i {
+    background: url("../img/home1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn1.hot i {
+    background: url("../img/home2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot {
+    color: #e33324;
+}
+
+footer .btn2 i {
+    background: url("../img/shop1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot i {
+    background: url("../img/shop2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot {
+    color: #e33324;
+}
+
+footer .btn3 i {
+    background: url("../img/shop-cart1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot i {
+    background: url("../img/shop-cart2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot {
+    color: #e33324;
+}
+
+footer .btn4 i {
+    background: url("../img/set1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot i {
+    background: url("../img/set2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

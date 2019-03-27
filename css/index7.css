@@ -1,0 +1,287 @@
+@import "bass.css";
+.main{
+    background: #efefef; 
+}
+header{
+    position: relative;
+    background: #e6433e;
+    height: 3.08rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+header .left{
+    position: absolute;
+    left: 0.32rem;
+    top: 0.34rem;
+    width: 1rem;
+    text-align: center;
+}
+header .left i{
+    width: 0.35rem;
+    height: 0.35rem;
+    display: block;
+    margin: 0 auto;
+}
+header .left i img{
+    height: 100%;
+}
+header .right{
+    position: absolute;
+    right: 0.32rem;
+    top: 0.34rem;
+    width: 1rem;
+    text-align: center;
+}
+header .right i{
+    height: 0.32rem;
+    display: block;
+    margin: 0 auto;
+    width: 0.3rem;
+}
+header .right i img{
+    height: 100%;
+}
+header .center{
+    text-align: center;
+    font-size: 0.24rem;
+    color: #fff;
+    overflow: hidden;
+    line-height: 0.5rem;
+}
+header .center i{
+    display: block;
+    width: 1.05rem;
+    height: 1.05rm;
+    margin: 0.76rem auto 0;
+}
+header .center i img{
+    width: 100%;
+    height: 100%;
+}
+.msg{
+    height: 0.96rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: #828282;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    padding-top: 0.08rem;
+    margin-bottom: 0.15rem;
+}
+.msg .item{
+    width: calc(100% / 3);
+    text-align: center;
+}
+.msg .item b{
+    display: block;
+}
+.msg .item b.red{
+    color: #e6433e;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    font-size: 0.24rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    margin-bottom: 0.15rem;
+}
+.btn-box li{
+    width: calc(100% / 2);
+    position: relative;
+}
+.btn-box .border{
+    position: absolute;
+    right: 0;
+    top: 0.09rem;
+    height: 0.76rem;
+    width: 1px;
+    background: #ebebeb;
+}
+.btn-box i{
+    display: block;
+    width: 0.43rem;
+    height: 0.43rem;
+    margin-top: 0.27rem;
+    margin-left: 0.68rem;
+    margin-right: 0.36rem;
+}
+.btn-box .right, .list .right{
+    margin-left: 0.5rem;
+}
+.btn-box i img{
+    width: 100%;
+    height: 100%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding-top: 0.15rem;
+    flex-flow: wrap;
+}
+.list li{
+    width: calc(100% / 2);
+    color: #000;
+    font-size: 0.24rem;
+    height: 1.03rem;
+    border-bottom: 1px solid #ebebeb;
+}
+.list li a{
+    color: #000;
+}
+.list li i{
+    width: 0.43rem;
+    height: 0.43rem;
+    margin-left: 0.68rem;
+    margin-right: 0.36rem;
+    margin-top: 0.28rem;
+}
+.list li img{
+    width: 100%;
+    height: 100%;
+}
+.list li p{
+    width: 1.5rem;
+    line-height: 100%;
+}
+.list li .p{
+    width: 1.5rem;
+    line-height: 100%;
+}
+.list li span{
+    display: block;
+}
+.list li .span1{
+    margin-top: 0.16rem;
+    margin-bottom: 0.22rem;
+}
+.list li .span2{
+    color: #828282;
+    font-size: 0.2rem;
+}
+.button-wrapper{
+    padding-top: 0.5rem;
+    background: #fff;
+}
+button{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 5.7rem;
+    height: 0.7rem;
+    outline: 0;
+    color: #fff;
+    background: #e6433e;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.24rem;
+    border: 0;
+    -webkit-border-radius: 0.06rem;
+    -moz-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+}
+footer {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    font-size: 0.2rem;
+}
+
+footer .item {
+    width: 25%;
+    position: relative;
+}
+
+footer .item {
+    width: 25%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+footer .item i {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin: 0.06rem auto 0.04rem;
+    position: relative;
+    font-style: normal;
+}
+
+footer .num {
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    color: #fff;
+    background: #ff452e;
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+footer .btn1.hot {
+    color: #e33324;
+}
+
+footer .btn1 i {
+    background: url("../img/home1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn1.hot i {
+    background: url("../img/home2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot {
+    color: #e33324;
+}
+
+footer .btn2 i {
+    background: url("../img/shop1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot i {
+    background: url("../img/shop2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot {
+    color: #e33324;
+}
+
+footer .btn3 i {
+    background: url("../img/shop-cart1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot i {
+    background: url("../img/shop-cart2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot {
+    color: #e33324;
+}
+
+footer .btn4 i {
+    background: url("../img/set1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot i {
+    background: url("../img/set2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+

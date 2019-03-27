@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index5.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+<h6 class="title">
+    <i></i>
+    <span>积分商城</span>
+</h6>
+<h6 class="small-title">
+    <i></i>
+    <span class="float-left">积分兑换</span>
+</h6>
+<div class="cards">
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p><span>1999积分</span>兑换</p>
+            <button>立即兑换</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p><span>1999积分</span>兑换</p>
+            <button>立即兑换</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p><span>1999积分</span>兑换</p>
+            <button>立即兑换</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p><span>1999积分</span>兑换</p>
+            <button>立即兑换</button>
+        </div>
+    </div>
+    <div class="bg-check">
+        <div class="inner-content">
+            <i class="close">
+                <img src="../img/close.png" alt="">
+            </i>
+            <div class="img-box clear-both">
+                <div class="left float-left">
+                    <img src="../img/card.jpg" alt="">
+                </div>
+                <div class="right float-left">
+                    199积分
+                </div>
+            </div>
+            <p class="name">【电子码】东方购物礼品卡&nbsp;App电子码&nbsp;电子卡&nbsp;面额200元</p>
+            <div class="count clear-both"><span class="float-left">数量</span>
+                <div class="num-box float-left">
+                    <div class="left-btn float-left">-</div>
+                    <div class="center float-left">1</div>
+                    <div class="right-btn float-left">+</div>
+                </div>
+            </div>
+            <a href="index6.html" class="submit-btn">
+                确定兑换
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="float-left item btn1">
+        <i></i>
+        <p>首页</p>
+    </div>
+    <div class="float-left item btn2 hot">
+        <i></i>
+        <p>积分商城</p>
+    </div>
+    <div class="float-left item btn3">
+        <i>
+            <div class="num">0</div>
+        </i>
+        <p>购物车</p>
+    </div>
+    <div class="float-left item btn4">
+        <i></i>
+        <p>个人中心</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,302 @@
+@import "bass.css";
+
+html, body {
+    max-width: 640px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    height: 0.68rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: normal;
+    line-height: 0.68rem;
+}
+
+.title i {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.16rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../img/back.png") no-repeat 0 0;
+    background-size: auto 100%;
+}
+.small-title {
+    position: relative;
+    line-height: 0.56rem;
+    height: 0.56rem;
+    color: #e6433e;
+    font-size: 0.24rem;
+    padding-left: 0.28rem;
+}
+
+.small-title i {
+    position: absolute;
+    left: 0;
+    top: 0.18rem;
+    width: 0.1rem;
+    height: 0.2rem;
+    background: #e6433e;
+}
+.msg{
+    color: #000;
+    width: 1.26rem;
+    margin: 0.35rem auto 0;
+}
+.msg i{
+    width: 0.24rem;
+    height: 0.28rem;
+    margin-top: 0.04rem;
+}
+.msg img{
+    height: 100%;
+    transform: rotate(180deg);
+}
+.msg span{
+    font-size: 0.24rem;
+}
+.cards{
+    /*margin-bottom: 0.8rem;*/
+}
+.card{
+    height: 2.38rem;
+    border-bottom: 1px solid #d0d0d0;
+}
+.card .left{
+    width: 3.67rem;
+    height: 2.04rem;
+    padding-left: 0.2rem;
+    margin-top: 0.18rem;
+}
+.card .left i{
+    display: block;
+    width: 0.57rem;
+    height: 0.57rem;
+    margin: 0 auto;
+}
+.card .left img{
+    height: 100%;
+}
+.card .left .vs{
+    text-align: center;
+    width: 1.08rem;
+    padding-top: 0.16rem;
+}
+.card .left .vs span{
+    display: block;
+}
+.card .left .match-name{
+    font-size: 0.24rem;
+    line-height: 100%;
+    overflow: hidden;
+    color: #404040;
+    font-weight: bold;
+    height: 0.24rem;
+}
+.card .left .time{
+    width: 1.06rem;
+    color: #a3a3a3;
+    font-size: 0.16rem;
+    line-height: 0.2rem;
+}
+.card .left .symbol{
+    font-size: 0.32rem;
+    color: #404040;
+    font-weight: bold;
+    line-height: 100%;
+    overflow: hidden;
+    height: 0.32rem;
+}
+.card .left .team{
+    width: 1.24rem;
+    padding-top: 0.26rem;
+}
+.card .left .team .name{
+    font-size: 0.16rem;
+    line-height: 100%;
+    height: 0.2rem;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-top: 0.08rem;
+}
+.card .left .box{
+    width: 0.94rem;
+    height: 0.46rem;
+    font-size: 0.16rem;
+    color: #949494;
+    border: 1px solid #949494;
+    line-height: 0.46rem;
+    text-align: center;
+    margin: 0.24rem auto 0;
+    background: #fff;
+}
+.card .left .box:hover{
+    color: #b73843;
+    border-color: #b73843;
+    background: #fee8eb;
+}
+.card .right{
+    margin-left: 0.3rem;
+    margin-top: 0.18rem;
+}
+.card .right p{
+    color: #000;
+    width: 2rem;
+    font-size: 0.24rem;
+    margin-top: 0.05rem;
+    word-break:break-all;
+}
+.card .football p{
+    text-align: center;
+    margin-top: 0.42rem;
+}
+.card .right p span{
+    color: #e6433e;
+    font-size: 0.24rem;
+}
+.card .right button{
+    background: #fff;
+    font-size: 0.24rem;
+    width: 1.52rem;
+    height: 0.54rem;
+    display: block;
+    margin: 0.25rem auto 0;
+    outline: 0;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    color: #000;
+    border: 1px solid #dd313b;
+    padding: 0;
+}
+
+
+
+.tips {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.42rem;
+    height: 0.68rem;
+    font-size: 0.24rem;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.3rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.2rem 0.2rem;
+}
+footer {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    font-size: 0.2rem;
+}
+
+footer .item {
+    width: 25%;
+    position: relative;
+}
+
+footer .item {
+    width: 25%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+footer .item i {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin: 0.06rem auto 0.04rem;
+    position: relative;
+    font-style: normal;
+}
+
+footer .num {
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    color: #fff;
+    background: #ff452e;
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+footer .btn1.hot {
+    color: #e33324;
+}
+
+footer .btn1 i {
+    background: url("../img/home1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn1.hot i {
+    background: url("../img/home2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot {
+    color: #e33324;
+}
+
+footer .btn2 i {
+    background: url("../img/shop1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot i {
+    background: url("../img/shop2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot {
+    color: #e33324;
+}
+
+footer .btn3 i {
+    background: url("../img/shop-cart1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot i {
+    background: url("../img/shop-cart2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot {
+    color: #e33324;
+}
+
+footer .btn4 i {
+    background: url("../img/set1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot i {
+    background: url("../img/set2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
