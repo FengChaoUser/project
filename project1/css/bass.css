@@ -1,0 +1,58 @@
+body, ul, li, p, dl, dt, dd, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, option, form {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Microsoft Yahei", Arial;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+input, textarea{
+  -webkit-appearance: none;
+}
+
+button {
+  outline: none;
+}
+input {
+  outline: none;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+/* 英文的字体设置 */
+.english-text {
+  font-family: Arial;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.clear-both:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 禁止鼠标选中文字 */
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+ not supported by any browser */
+}
+.content {
+  outline: none;
+} 
+

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index8.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+<h6 class="title">
+    <i></i>
+    <span>兑换列表</span>
+</h6>
+<div class="cards">
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p>[全国通用]沃尔玛GIFT卡购物卡2000元面值</p>
+            <button>1999积分</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p>[全国通用]沃尔玛GIFT卡购物卡2000元面值</p>
+            <button>1999积分</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left">
+            <img src="../img/card.jpg" alt="">
+        </div>
+        <div class="right float-left">
+            <p>[全国通用]沃尔玛GIFT卡购物卡2000元面值</p>
+            <button>1999积分</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="left float-left clear-both">
+            <div class="team float-left">
+                <i><img src="../img/team1.jpg" alt=""></i>
+                <span class="name">门兴格拉德巴赫</span>
+                <div class="box">
+                    胜&nbsp;1.49
+                </div>
+            </div>
+            <div class="vs float-left">
+                <span class="match-name">德甲</span>
+                <span class="symbol">VS</span>
+                <span class="time">2019-01-26&nbsp;22:25截止</span>
+                <div class="box">
+                    平&nbsp;4.00
+                </div>
+            </div>
+            <div class="team float-left">
+                <i><img src="../img/team2.jpg" alt=""></i>
+                <span class="name">奥格斯堡</span>
+                <div class="box">
+                    负&nbsp;4.80
+                </div>
+            </div>
+        </div>
+        <div class="right football float-left">
+            <p>足球比赛</p>
+            <button>1999积分</button>
+        </div>
+    </div>
+</div>
+<p class="msg clear-both"><i class="float-left"><img src="../img/reset.png" alt=""></i><span
+        class="float-right">上拉刷新</span></p>
+
+
+</body>
+</html>

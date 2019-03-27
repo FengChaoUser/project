@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index2.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+<h6 class="title">
+    <i></i>
+    <span>商品详情</span>
+</h6>
+<div class="banner">
+    <img src="../img/banner2.jpg" alt="">
+</div>
+<div class="bg-box">
+    <div class="text">
+        <strong>399=<span>399积分</span></strong>
+        <div class="details">
+            穿越火线CF400元点卡CF400元电卷穿越火线CF★自动充值
+        </div>
+        <p></p>
+    </div>
+    <div class="name">
+        <h6>
+            <i></i>
+            商品精选
+        </h6>
+        <p>穿越火线CF400元点卡CF400元电卷穿越火线CF★自动充值</p>
+    </div>
+</div>
+
+<footer>
+    <div class="float-left item btn1 hot">
+        <i></i>
+        <p>首页</p>
+    </div>
+    <div class="float-left item btn3">
+        <i><div class="num">0</div></i>
+        <p>购物车</p>
+    </div>
+    <div class="float-left item btn2">
+        加入购物车
+    </div>
+
+    <a href="index3.html" class="float-left item btn4">
+        立即购买
+    </div>
+</footer>
+</body>
+</html>
