@@ -3,6 +3,7 @@
 html, body {
     max-width: 640px;
     margin: auto;
+    background: #fff;
 }
 
 .title {
@@ -141,9 +142,10 @@ footer .item {
 footer .item {
     width: 25%;
     text-align: center;
+}
+footer .item p{
     color: #3c3c3c;
 }
-
 footer .item i {
     display: block;
     width: 0.36rem;
@@ -169,7 +171,7 @@ footer .num {
     border-radius: 50%;
 }
 
-footer .btn1.hot {
+footer .btn1.hot p {
     color: #e33324;
 }
 
@@ -183,7 +185,7 @@ footer .btn1.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn2.hot {
+footer .btn2.hot p{
     color: #e33324;
 }
 
@@ -197,7 +199,7 @@ footer .btn2.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn3.hot {
+footer .btn3.hot p{
     color: #e33324;
 }
 
@@ -211,7 +213,7 @@ footer .btn3.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn4.hot {
+footer .btn4.hot p{
     color: #e33324;
 }
 

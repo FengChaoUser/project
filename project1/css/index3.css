@@ -3,6 +3,7 @@
 html, body {
     max-width: 640px;
     margin: auto;
+    background: #fff;
 }
 
 .title {
@@ -38,7 +39,7 @@ html, body {
     height: 100%;
 }
 .box .text{
-    width: calc(100vw - 1.89rem);
+    width: calc(100vw - 1.9rem);
     padding-right: 0.7rem;
     font-size: 0.24rem;
     padding-left: 0.2rem;

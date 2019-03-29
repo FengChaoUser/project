@@ -2,6 +2,27 @@
 html, body {
     max-width: 640px;
     margin: auto;
+    background-color: #fff;
+}
+.title1 {
+    position: relative;
+    height: 0.68rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: normal;
+    line-height: 0.68rem;
+}
+
+.title1 i {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.16rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../img/back.png") no-repeat 0 0;
+    background-size: auto 100%;
 }
 .banner{
     height: 2.9rem;
@@ -161,9 +182,10 @@ footer .item {
 footer .item {
     width: 25%;
     text-align: center;
+}
+footer .item p{
     color: #3c3c3c;
 }
-
 footer .item i {
     display: block;
     width: 0.36rem;
@@ -189,7 +211,7 @@ footer .num {
     border-radius: 50%;
 }
 
-footer .btn1.hot {
+footer .btn1.hot p {
     color: #e33324;
 }
 
@@ -203,7 +225,7 @@ footer .btn1.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn2.hot {
+footer .btn2.hot p{
     color: #e33324;
 }
 
@@ -217,7 +239,7 @@ footer .btn2.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn3.hot {
+footer .btn3.hot p{
     color: #e33324;
 }
 
@@ -231,7 +253,7 @@ footer .btn3.hot i {
     background-size: 100% 100%;
 }
 
-footer .btn4.hot {
+footer .btn4.hot p{
     color: #e33324;
 }
 

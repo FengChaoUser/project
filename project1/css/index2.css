@@ -101,9 +101,11 @@ footer .item {
 footer .item {
     width: 25%;
     text-align: center;
+
+}
+footer .item p{
     color: #3c3c3c;
 }
-
 footer .item i {
     display: block;
     width: 0.36rem;
@@ -129,7 +131,7 @@ footer .num {
     border-radius: 50%;
 }
 
-footer .btn1.hot {
+footer .btn1.hot p{
     color: #e33324;
 }
 
@@ -151,7 +153,7 @@ footer .btn2 {
 }
 
 
-footer .btn3.hot {
+footer .btn3.hot p{
     color: #e33324;
 }
 

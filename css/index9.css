@@ -1,12 +1,10 @@
 @import "bass.css";
-
 html, body {
     max-width: 640px;
     margin: auto;
     background: #fff;
 }
-
-.title {
+.title1 {
     position: relative;
     height: 0.68rem;
     background: #e6433e;
@@ -17,7 +15,7 @@ html, body {
     line-height: 0.68rem;
 }
 
-.title i {
+.title1 i {
     position: absolute;
     left: 0.2rem;
     top: 0.16rem;
@@ -26,103 +24,11 @@ html, body {
     background: url("../img/back.png") no-repeat 0 0;
     background-size: auto 100%;
 }
-.small-title {
-    position: relative;
-    line-height: 0.56rem;
-    height: 0.56rem;
-    color: #e6433e;
+.text{
     font-size: 0.24rem;
-    padding-left: 0.28rem;
-}
-
-.small-title i {
-    position: absolute;
-    left: 0;
-    top: 0.18rem;
-    width: 0.1rem;
-    height: 0.2rem;
-    background: #e6433e;
-}
-.msg{
-    color: #000;
-    width: 1.26rem;
-    margin: 0.7rem auto 0;
-}
-.msg i{
-    width: 0.24rem;
-    height: 0.28rem;
-    margin-top: 0.04rem;
-}
-.msg img{
-    height: 100%;
-}
-.msg span{
-    font-size: 0.24rem;
-}
-.cards{
-    margin-bottom: 0.8rem;
-}
-.card{
-    height: 2.38rem;
-    border-bottom: 1px solid #d0d0d0;
-}
-.card .left{
-    width: 3.67rem;
-    height: 2.04rem;
-    padding-left: 0.2rem;
-    margin-top: 0.18rem;
-}
-.card .left img{
-    width: 100%;
-    height: 100%;
-}
-.card .right{
-    margin-left: 0.3rem;
-    margin-top: 0.18rem;
-}
-.card .right p{
-    color: #000;
-    font-size: 0.2rem;
-    margin-top: 0.4rem;
-}
-.card .right p span{
-    color: #e6433e;
-    font-size: 0.24rem;
-}
-.card .right button{
-    background: #e6433e;
-    color: #fff;
-    font-size: 0.24rem;
-    border: 0;
-    width: 1.52rem;
-    height: 0.54rem;
-    display: block;
-    margin-top: 0.46rem;
-}
-
-
-
-.tips {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 1.42rem;
-    height: 0.68rem;
-    font-size: 0.24rem;
-    background: rgba(0, 0, 0, .6);
-    color: #fff;
-    -webkit-border-radius: 0.1rem;
-    -moz-border-radius: 0.1rem;
-    border-radius: 0.1rem;
-    text-align: center;
-    line-height: 0.3rem;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0.2rem 0.2rem;
+    color: #0d0d0d;
+    padding: 20px;
+    line-height: 0.48rem;
 }
 footer {
     width: 100%;

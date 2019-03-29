@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index9.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+<div class="title1">
+    <a href="javascript:history.back(-1)"><i></i></a>
+    <span>积分规则</span>
+</div>
+<div class="text"><b>积分兑换规则</b><br/>
+    1.使用或赢取积分成为商城会员。<br/>
+    2.积分可直接兑换礼券、也可以用于换购。换购方式为：商城价-积分抵扣金额=商品<br/>
+    换购价格（即支付价格）。使用积分无上限。<br/>
+    3.积分只能用于购买、换购使用，不的转赠他人。<br/>
+    4. 在商城成功购买商品，并签收后，积分将自动赠予到本人账户，可在我的积分中查看。<br/>
+    5.将不定期推出积分兑换活动或积分兑换套餐。<br/>
+    积分有效期<br/>
+    积分有效期为1个自然年，即每一个自然年年清空一次。<br/>
+    注：积分一经使用，如有发生取消订单或退货情况，积分将不予以任何形式退还。望请谅解，最终解释权归商城所有。</div>
+<footer>
+    <div class="float-left item btn1">
+        <a href="../index.html">
+            <i></i>
+            <p>首页</p>
+        </a>
+    </div>
+    <div class="float-left item btn2">
+        <a href="../html/index5.html">
+            <i></i>
+            <p>积分商城</p>
+        </a>
+    </div>
+    <div class="float-left item btn3">
+        <i>
+            <div class="num">0</div>
+        </i>
+        <p>购物车</p>
+    </div>
+    <div class="float-left item btn4">
+        <a href="../html/index7.html">
+            <i></i>
+            <p>个人中心</p>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
