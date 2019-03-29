@@ -1,0 +1,173 @@
+@import "bass.css";
+html, body {
+    max-width: 640px;
+    margin: auto;
+    background: #fff;
+}
+.title1 {
+    position: relative;
+    height: 0.68rem;
+    background: #e6433e;
+    color: #fff;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: normal;
+    line-height: 0.68rem;
+}
+
+.title1 i {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.16rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url("../img/back.png") no-repeat 0 0;
+    background-size: auto 100%;
+}
+ul{
+    margin-top: 0.72rem;
+}
+li{
+    padding: 0 0.35rem;
+    color: #0b0b0b;
+    font-size: 0.24rem;
+    height: 1.04rem;
+    line-height: 1.04rem;
+    border: 1px solid #f3f3f3;
+}
+li i{
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-right: 0.151rem;
+    background: url("../img/check.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-top: 0.36rem;
+}
+li:hover{
+    background: #e8e0e0;
+}
+li:hover i{
+    background: url("../img/checked.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.button{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 5.72rem;
+    height: 0.68rem;
+    color: #f0ffee;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    -webkit-border-radius: 0.06rem;
+    -moz-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    outline: 0;
+    background: #e6433e;
+    border: 0;
+    margin: 0.7rem auto 0;
+    display: block;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    font-size: 0.2rem;
+}
+
+footer .item {
+    width: 25%;
+    position: relative;
+}
+
+footer .item {
+    width: 25%;
+    text-align: center;
+}
+footer .item p{
+    color: #3c3c3c;
+}
+footer .item i {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin: 0.06rem auto 0.04rem;
+    position: relative;
+    font-style: normal;
+}
+
+footer .num {
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    color: #fff;
+    background: #ff452e;
+    width: 0.28rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.16rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+footer .btn1.hot p {
+    color: #e33324;
+}
+
+footer .btn1 i {
+    background: url("../img/home1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn1.hot i {
+    background: url("../img/home2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot p{
+    color: #e33324;
+}
+
+footer .btn2 i {
+    background: url("../img/shop1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn2.hot i {
+    background: url("../img/shop2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot p{
+    color: #e33324;
+}
+
+footer .btn3 i {
+    background: url("../img/shop-cart1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn3.hot i {
+    background: url("../img/shop-cart2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot p{
+    color: #e33324;
+}
+
+footer .btn4 i {
+    background: url("../img/set1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+footer .btn4.hot i {
+    background: url("../img/set2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

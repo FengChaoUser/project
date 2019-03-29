@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index12.css">
+    <script type="text/javascript">
+        ;(function (doc, win, undefined) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth > 750 ? 750 : docEl.clientWidth;
+                    if (clientWidth === undefined) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                };
+            if (doc.addEventListener === undefined) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false)
+        })(document, window);
+    </script>
+</head>
+<body>
+
+<div class="title1">
+    <a href="javascript:history.back(-1)"><i></i></a>
+    <span>选择支付方式</span>
+</div>
+<ul>
+    <li class="clear-both">
+        <p class="float-left">支付宝支付</p><i class="float-right"></i>
+    </li>
+    <li class="clear-both">
+        <p class="float-left">银行卡支付</p><i class="float-right"></i>
+    </li>
+    <li class="clear-both">
+        <p class="float-left">微信支付</p><i class="float-right"></i>
+    </li>
+</ul>
+<a href="../html/index5.html" class="button">
+    确认
+</a>
+<footer>
+    <div class="float-left item btn1">
+        <a href="../index.html">
+            <i></i>
+            <p>首页</p>
+        </a>
+    </div>
+    <div class="float-left item btn2">
+        <a href="../html/index5.html">
+            <i></i>
+            <p>积分商城</p>
+        </a>
+    </div>
+    <div class="float-left item btn3">
+        <a href="../html/index10.html">
+            <i>
+                <div class="num">0</div>
+            </i>
+            <p>购物车</p>
+        </a>
+    </div>
+    <div class="float-left item btn4">
+        <a href="../html/index7.html">
+            <i></i>
+            <p>个人中心</p>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
