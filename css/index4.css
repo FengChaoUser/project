@@ -39,6 +39,7 @@ html, body {
 
 .box em img {
     height: 100%;
+    width: 100%;
 }
 
 .box .text {

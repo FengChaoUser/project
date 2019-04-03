@@ -29,12 +29,12 @@
     <span>商品详情</span>
 </h6>
 <div class="banner">
-    <img src="../img/banner2.jpg" alt="">
+    <img src="../img/banner2.jpg" alt="" id="banner">
 </div>
 <div class="bg-box">
     <div class="text">
-        <strong>399=<span>399积分</span></strong>
-        <div class="details">
+        <strong id="score">399=<span>399积分</span></strong>
+        <div class="details" id="details">
             穿越火线CF400元点卡CF400元电卷穿越火线CF★自动充值
         </div>
         <p></p>
@@ -44,7 +44,7 @@
             <i></i>
             商品精选
         </h6>
-        <p>穿越火线CF400元点卡CF400元电卷穿越火线CF★自动充值</p>
+        <p id="details2">穿越火线CF400元点卡CF400元电卷穿越火线CF★自动充值</p>
     </div>
 </div>
 
@@ -67,9 +67,27 @@
         加入购物车
     </div>
 
-    <a href="index3.html" class="float-left item btn4">
+    <a href="" class="float-left item btn4" id="btn">
         立即购买
     </a>
 </footer>
+<script>
+    function GetQueryString(name) {
+        let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        let r = window.location.search.substr(1).match(reg);  //获取url中"?"符后的字符串并正则匹配
+        let context = "";
+        if (r != null)
+            context = r[2];
+        reg = null;
+        r = null;
+        return context == null || context == "" || context == "undefined" ? "" : context;
+    }
+    document.getElementById("banner").src = '..'+ GetQueryString('img');
+    document.getElementById("details").innerText = decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元'+'★自动充值' + decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元'+'★自动充值';
+    document.getElementById("details2").innerText = decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元' + '★自动充值' + decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元' + '★自动充值';
+    document.getElementById("btn").href="index3.html?"+ "name=" + GetQueryString('name') + "&count=" + GetQueryString('count') + "&img=" + GetQueryString('img');
+
+
+</script>
 </body>
 </html>
