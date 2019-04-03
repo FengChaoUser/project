@@ -37,6 +37,7 @@ html, body {
 }
 .box i img{
     height: 100%;
+    width: 100%;
 }
 .box .text{
     width: calc(100vw - 1.9rem);
