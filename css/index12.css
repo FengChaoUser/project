@@ -43,10 +43,7 @@ li i{
     background-size: 100% 100%;
     margin-top: 0.36rem;
 }
-li:hover{
-    background: #e8e0e0;
-}
-li:hover i{
+li.hot i{
     background: url("../img/checked.png") no-repeat 0 0;
     background-size: 100% 100%;
 }

@@ -85,6 +85,7 @@
     document.getElementById("banner").src = '..'+ GetQueryString('img');
     document.getElementById("details").innerText = decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元'+'★自动充值' + decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元'+'★自动充值';
     document.getElementById("details2").innerText = decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元' + '★自动充值' + decodeURI(GetQueryString('name'))+ GetQueryString('count') + '元' + '★自动充值';
+    document.getElementById("score").innerHTML = GetQueryString('score') + '=' + '<span>' + GetQueryString('score') + '积分</span>';
     document.getElementById("btn").href="index3.html?"+ "name=" + GetQueryString('name') + "&count=" + GetQueryString('count') + "&img=" + GetQueryString('img');
 
 

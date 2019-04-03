@@ -29,13 +29,13 @@
     <span>选择支付方式</span>
 </div>
 <ul>
-    <li class="clear-both">
+    <li class="clear-both hot" onclick="toggle(this)">
         <p class="float-left">支付宝支付</p><i class="float-right"></i>
     </li>
-    <li class="clear-both">
+    <li class="clear-both" onclick="toggle(this)">
         <p class="float-left">银行卡支付</p><i class="float-right"></i>
     </li>
-    <li class="clear-both">
+    <li class="clear-both" onclick="toggle(this)">
         <p class="float-left">微信支付</p><i class="float-right"></i>
     </li>
 </ul>
@@ -70,5 +70,14 @@
         </a>
     </div>
 </footer>
+<script>
+    function toggle (dom){
+        let lis = document.getElementsByTagName('ul')[0].getElementsByTagName('li');
+        for (let li of lis){
+            li.classList.remove("hot");
+        }
+        dom.classList.add("hot");
+    }
+</script>
 </body>
 </html>
